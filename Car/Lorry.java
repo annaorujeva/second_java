@@ -5,6 +5,12 @@ package app;
 public class Lorry extends Car {
     public double gruzopod;
 
+    public Lorry(String abrand, String aclassofcar, double aweight, double agruzopod){
+        super(abrand, aclassofcar, aweight);
+        this.gruzopod = agruzopod;
+
+    }
+
     public void start(){
         System.out.println("Грузовик поъехал");
     }
@@ -13,3 +19,4 @@ public class Lorry extends Car {
     }
 
 }
+
