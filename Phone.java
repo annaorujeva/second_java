@@ -20,8 +20,8 @@ public class Phone {
 
     public Phone(String n, String m, int w) {
         this(n, m);
-        this.number = n;
-        this.model = m;
+        //this.number = n;     предыдущий шаг выполнения
+        //this.model = m;
         this.weight = w;
     }
 
