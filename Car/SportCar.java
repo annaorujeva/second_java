@@ -3,8 +3,14 @@ package app;
 Метод start – выводит на экран «SportCar поехал», метод stop - «SportCar остановился».
 */
 
-public class SportCar {
+public class SportCar extends Car {
     public double max_v;
+
+    public SportCar(String abrand, String aclassofcar, double aweight, double amax_v){
+        super(abrand, aclassofcar, aweight);
+        this.max_v = amax_v;
+
+    }
 
     public void start(){
         System.out.println("SportCar поехал");
