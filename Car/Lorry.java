@@ -5,8 +5,8 @@ package app;
 public class Lorry extends Car {
     public double gruzopod;
 
-    public Lorry(String abrand, String aclassofcar, double aweight, double agruzopod){
-        super(abrand, aclassofcar, aweight);
+    public Lorry(String abrand, String aclassofcar, double aweight, Engine amotor, double agruzopod){
+        super(abrand, aclassofcar, aweight, amotor);
         this.gruzopod = agruzopod;
 
     }
@@ -16,6 +16,9 @@ public class Lorry extends Car {
     }
     public void stop(){
         System.out.println("Грузовик остановился");
+    }
+    public String printInfo(){
+        return (this.brand + this.classofcar + this.weight + this.gruzopod + this.motor);
     }
 
 }
