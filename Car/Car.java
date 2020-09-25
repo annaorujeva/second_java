@@ -14,6 +14,12 @@ public abstract class Car {
     public double weight;
     public Engine motor;
 
+    public Car(String abrand, String aclassofcar, double aweight){
+        this.brand = abrand;
+        this.classofcar = aclassofcar;
+        this.weight = aweight;
+    }
+
     public abstract void stop();
     public abstract void start();
 
