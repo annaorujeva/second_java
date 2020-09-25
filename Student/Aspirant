@@ -1,0 +1,22 @@
+package app;
+
+public class Aspirant extends Student{
+    public String sciencework;
+    public Aspirant(String aFirstName, String aLastName, String aGroup, double aAverageMark) {
+        super(aFirstName, aLastName, aGroup, aAverageMark);
+        sciencework = "null";
+    }
+    public void setSciencework(String aNameofwork){
+        sciencework = aNameofwork;
+    }
+    public String getSciencework(){
+        return sciencework;
+    }
+    public double getScholarship(){
+        int sum_step = 180;
+        if (super.getMark() == 5){
+            sum_step = 200;
+        }
+        return sum_step;
+    }
+}
