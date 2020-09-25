@@ -6,8 +6,8 @@ package app;
 public class SportCar extends Car {
     public double max_v;
 
-    public SportCar(String abrand, String aclassofcar, double aweight, double amax_v){
-        super(abrand, aclassofcar, aweight);
+    public SportCar(String abrand, String aclassofcar, double aweight, Engine amotor, double amax_v){
+        super(abrand, aclassofcar, aweight, amotor);
         this.max_v = amax_v;
 
     }
@@ -18,4 +18,8 @@ public class SportCar extends Car {
     public void stop(){
         System.out.println("SportCar остановился");
     }
+    public String printInfo(){
+        return (this.brand + this.classofcar + this.weight + this.max_v + this.motor);
+    }
 }
+
