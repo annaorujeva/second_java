@@ -7,7 +7,7 @@ public class Cat extends Animal{
         super(aName, aFood, aLocation, aType);
     }
     public void setNumofkittens(int countKittens){
-        this.numofkittens = countKittens;
+        numofkittens = countKittens;
     }
     public int getNumofkittens(){
         return numofkittens;
