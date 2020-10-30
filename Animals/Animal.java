@@ -9,11 +9,13 @@ Dog, Cat, Horse переопределяют методы makeNoise, eat.
 В методе main создайте массив типа Animal, в который запишите животных всех имеющихся у вас типов.
 В цикле отправляйте их на прием к ветеринару.*/
 public class Animal {
+    public String name;
     public String food;
     public String location;
     public String typeofanimal;
 
-    public Animal(String aFood, String aLocation, String atypeofanimal) {
+    public Animal(String aName, String aFood, String aLocation, String atypeofanimal) {
+        this.name = aName;
         this.food = aFood;
         this.location = aLocation;
         this.typeofanimal = atypeofanimal;
