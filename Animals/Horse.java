@@ -6,7 +6,7 @@ public class Horse extends Animal{
             super(aName, aFood, aLocation, aType);
         }
         public void setHeight(float aHeight){
-            this.height = aHeight;
+            height = aHeight;
         }
         public double getHeight(){
             return height;
