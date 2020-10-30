@@ -7,6 +7,6 @@ public class Circle implements Shape{
     }
 
     public double square(){
-        return Math.PI*(this.r * this.r);
+        return Math.PI*(r * r);
     }
 }
