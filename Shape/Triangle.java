@@ -12,7 +12,7 @@ public class Triangle implements Shape{
     }
 
     public double square(){
-        double p = (this.a + this.b + this.c)/2;
-        return Math.sqrt(p * (p - this.a) * (p - this.b) * (p - this.c));
+        double p = (a + b + c)/2;
+        return Math.sqrt(p * (p - a) * (p - b) * (p - c));
     }
 }
