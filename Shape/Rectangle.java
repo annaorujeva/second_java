@@ -5,11 +5,11 @@ public class Rectangle implements Shape{
     public double b;
     public Rectangle(double A, double B){
          a = A;
-         b= B;
+         b = B;
     }
 
     public double square(){
-        return this.a * this.b;
+        return a * b;
     }
 
 }
