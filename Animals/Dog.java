@@ -7,7 +7,7 @@ public class Dog extends Animal{
         super(aName, aFood, aLocation, aType);
     }
     public void setWeight(float aWeight){
-        this.weight = aWeight;
+        weight = aWeight;
     }
     public double getWeight(){
         return weight;
