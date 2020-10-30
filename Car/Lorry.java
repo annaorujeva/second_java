@@ -7,7 +7,7 @@ public class Lorry extends Car {
 
     public Lorry(String abrand, String aclassofcar, double aweight, Engine amotor, double agruzopod){
         super(abrand, aclassofcar, aweight, amotor);
-        this.gruzopod = agruzopod;
+        gruzopod = agruzopod;
 
     }
 
@@ -18,7 +18,7 @@ public class Lorry extends Car {
         System.out.println("Грузовик остановился");
     }
     public String printInfo(){
-        return (this.brand + this.classofcar + this.weight + this.gruzopod + this.motor);
+        return (brand + classofcar + weight + gruzopod + motor);
     }
 
 }
