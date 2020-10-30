@@ -15,10 +15,10 @@ public class Animal {
     public String typeofanimal;
 
     public Animal(String aName, String aFood, String aLocation, String atypeofanimal) {
-        this.name = aName;
-        this.food = aFood;
-        this.location = aLocation;
-        this.typeofanimal = atypeofanimal;
+        name = aName;
+        food = aFood;
+        location = aLocation;
+        typeofanimal = atypeofanimal;
     }
 
 
@@ -41,14 +41,23 @@ public class Animal {
     public String getTypeofanimal(){
         return typeofanimal;
     }
+    public String getName(){
+        return name;
+    }
     public void setFood(String aFood){
-        this.food = aFood;
+        food = aFood;
     }
     public void setLocation(String aLocation){
-        this.location = aLocation;
+        location = aLocation;
     }
     public void setTypeofanimal(String aTypeofanimal){
-        this.location = aTypeofanimal;
+        location = aTypeofanimal;
+    }
+    public void setName(String aName){
+        name = aName;
     }
 
 }
+
+
+
